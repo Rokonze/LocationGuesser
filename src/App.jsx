@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import Game from './components/Game'
 
 function App() {
   
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
+      <Game />
     </>
   )
 }
